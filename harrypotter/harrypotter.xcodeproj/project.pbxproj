@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461EF4A42D64B90D00220296 /* Hufflepuff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 461EF4A32D64B90D00220296 /* Hufflepuff.jpg */; };
+		461EF4A62D64B91300220296 /* Ravenclaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 461EF4A52D64B91300220296 /* Ravenclaw.jpg */; };
+		461EF4A82D64B91A00220296 /* Slytherin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 461EF4A72D64B91A00220296 /* Slytherin.jpg */; };
+		461EF4AA2D64B92300220296 /* Gryffindor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 461EF4A92D64B92300220296 /* Gryffindor.jpg */; };
+		461EF4AC2D64C33400220296 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 461EF4AB2D64C33400220296 /* placeholder.png */; };
+		467CE22F2D5F6D10002A6DB2 /* harrypotterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CE22E2D5F6D10002A6DB2 /* harrypotterApp.swift */; };
+		467CE2312D5F6D10002A6DB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CE2302D5F6D10002A6DB2 /* ContentView.swift */; };
+		467CE2332D5F6D11002A6DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467CE2322D5F6D11002A6DB2 /* Assets.xcassets */; };
+		467CE2362D5F6D11002A6DB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467CE2352D5F6D11002A6DB2 /* Preview Assets.xcassets */; };
+		467CE2402D5F6D11002A6DB2 /* harrypotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CE23F2D5F6D11002A6DB2 /* harrypotterTests.swift */; };
+		467CE24A2D5F6D11002A6DB2 /* harrypotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CE2492D5F6D11002A6DB2 /* harrypotterUITests.swift */; };
+		467CE24C2D5F6D11002A6DB2 /* harrypotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CE24B2D5F6D11002A6DB2 /* harrypotterUITestsLaunchTests.swift */; };
+		467CE2592D5F6E23002A6DB2 /* harryPotterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CE2582D5F6E23002A6DB2 /* harryPotterApi.swift */; };
+		467CE2612D5F7F5E002A6DB2 /* biblioteca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 467CE2602D5F7F5E002A6DB2 /* biblioteca.jpg */; };
+		467CE2632D5F7F6D002A6DB2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 467CE2622D5F7F6D002A6DB2 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		467CE23C2D5F6D11002A6DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467CE2232D5F6D10002A6DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467CE22A2D5F6D10002A6DB2;
+			remoteInfo = harrypotter;
+		};
+		467CE2462D5F6D11002A6DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467CE2232D5F6D10002A6DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467CE22A2D5F6D10002A6DB2;
+			remoteInfo = harrypotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461EF4A32D64B90D00220296 /* Hufflepuff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hufflepuff.jpg; path = ../../../Hufflepuff.jpg; sourceTree = "<group>"; };
+		461EF4A52D64B91300220296 /* Ravenclaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ravenclaw.jpg; path = ../../../Ravenclaw.jpg; sourceTree = "<group>"; };
+		461EF4A72D64B91A00220296 /* Slytherin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Slytherin.jpg; path = ../../../Slytherin.jpg; sourceTree = "<group>"; };
+		461EF4A92D64B92300220296 /* Gryffindor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Gryffindor.jpg; path = ../../../Gryffindor.jpg; sourceTree = "<group>"; };
+		461EF4AB2D64C33400220296 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../placeholder.png; sourceTree = "<group>"; };
+		467CE22B2D5F6D10002A6DB2 /* harrypotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harrypotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		467CE22E2D5F6D10002A6DB2 /* harrypotterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harrypotterApp.swift; sourceTree = "<group>"; };
+		467CE2302D5F6D10002A6DB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		467CE2322D5F6D11002A6DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467CE2352D5F6D11002A6DB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		467CE23B2D5F6D11002A6DB2 /* harrypotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harrypotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467CE23F2D5F6D11002A6DB2 /* harrypotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harrypotterTests.swift; sourceTree = "<group>"; };
+		467CE2452D5F6D11002A6DB2 /* harrypotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harrypotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467CE2492D5F6D11002A6DB2 /* harrypotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harrypotterUITests.swift; sourceTree = "<group>"; };
+		467CE24B2D5F6D11002A6DB2 /* harrypotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harrypotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		467CE2582D5F6E23002A6DB2 /* harryPotterApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harryPotterApi.swift; sourceTree = "<group>"; };
+		467CE2602D5F7F5E002A6DB2 /* biblioteca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = biblioteca.jpg; path = ../../../biblioteca.jpg; sourceTree = "<group>"; };
+		467CE2622D5F7F6D002A6DB2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467CE2282D5F6D10002A6DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CE2382D5F6D11002A6DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CE2422D5F6D11002A6DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467CE2222D5F6D10002A6DB2 = {
+			isa = PBXGroup;
+			children = (
+				467CE22D2D5F6D10002A6DB2 /* harrypotter */,
+				467CE23E2D5F6D11002A6DB2 /* harrypotterTests */,
+				467CE2482D5F6D11002A6DB2 /* harrypotterUITests */,
+				467CE22C2D5F6D10002A6DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467CE22C2D5F6D10002A6DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467CE22B2D5F6D10002A6DB2 /* harrypotter.app */,
+				467CE23B2D5F6D11002A6DB2 /* harrypotterTests.xctest */,
+				467CE2452D5F6D11002A6DB2 /* harrypotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467CE22D2D5F6D10002A6DB2 /* harrypotter */ = {
+			isa = PBXGroup;
+			children = (
+				467CE22E2D5F6D10002A6DB2 /* harrypotterApp.swift */,
+				467CE2582D5F6E23002A6DB2 /* harryPotterApi.swift */,
+				467CE2302D5F6D10002A6DB2 /* ContentView.swift */,
+				467CE2322D5F6D11002A6DB2 /* Assets.xcassets */,
+				461EF4AB2D64C33400220296 /* placeholder.png */,
+				461EF4A92D64B92300220296 /* Gryffindor.jpg */,
+				461EF4A72D64B91A00220296 /* Slytherin.jpg */,
+				461EF4A52D64B91300220296 /* Ravenclaw.jpg */,
+				461EF4A32D64B90D00220296 /* Hufflepuff.jpg */,
+				467CE2622D5F7F6D002A6DB2 /* logo.png */,
+				467CE2602D5F7F5E002A6DB2 /* biblioteca.jpg */,
+				467CE2342D5F6D11002A6DB2 /* Preview Content */,
+			);
+			path = harrypotter;
+			sourceTree = "<group>";
+		};
+		467CE2342D5F6D11002A6DB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				467CE2352D5F6D11002A6DB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		467CE23E2D5F6D11002A6DB2 /* harrypotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				467CE23F2D5F6D11002A6DB2 /* harrypotterTests.swift */,
+			);
+			path = harrypotterTests;
+			sourceTree = "<group>";
+		};
+		467CE2482D5F6D11002A6DB2 /* harrypotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				467CE2492D5F6D11002A6DB2 /* harrypotterUITests.swift */,
+				467CE24B2D5F6D11002A6DB2 /* harrypotterUITestsLaunchTests.swift */,
+			);
+			path = harrypotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467CE22A2D5F6D10002A6DB2 /* harrypotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467CE24F2D5F6D11002A6DB2 /* Build configuration list for PBXNativeTarget "harrypotter" */;
+			buildPhases = (
+				467CE2272D5F6D10002A6DB2 /* Sources */,
+				467CE2282D5F6D10002A6DB2 /* Frameworks */,
+				467CE2292D5F6D10002A6DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harrypotter;
+			productName = harrypotter;
+			productReference = 467CE22B2D5F6D10002A6DB2 /* harrypotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		467CE23A2D5F6D11002A6DB2 /* harrypotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467CE2522D5F6D11002A6DB2 /* Build configuration list for PBXNativeTarget "harrypotterTests" */;
+			buildPhases = (
+				467CE2372D5F6D11002A6DB2 /* Sources */,
+				467CE2382D5F6D11002A6DB2 /* Frameworks */,
+				467CE2392D5F6D11002A6DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467CE23D2D5F6D11002A6DB2 /* PBXTargetDependency */,
+			);
+			name = harrypotterTests;
+			productName = harrypotterTests;
+			productReference = 467CE23B2D5F6D11002A6DB2 /* harrypotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		467CE2442D5F6D11002A6DB2 /* harrypotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467CE2552D5F6D11002A6DB2 /* Build configuration list for PBXNativeTarget "harrypotterUITests" */;
+			buildPhases = (
+				467CE2412D5F6D11002A6DB2 /* Sources */,
+				467CE2422D5F6D11002A6DB2 /* Frameworks */,
+				467CE2432D5F6D11002A6DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467CE2472D5F6D11002A6DB2 /* PBXTargetDependency */,
+			);
+			name = harrypotterUITests;
+			productName = harrypotterUITests;
+			productReference = 467CE2452D5F6D11002A6DB2 /* harrypotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467CE2232D5F6D10002A6DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					467CE22A2D5F6D10002A6DB2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					467CE23A2D5F6D11002A6DB2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 467CE22A2D5F6D10002A6DB2;
+					};
+					467CE2442D5F6D11002A6DB2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 467CE22A2D5F6D10002A6DB2;
+					};
+				};
+			};
+			buildConfigurationList = 467CE2262D5F6D10002A6DB2 /* Build configuration list for PBXProject "harrypotter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467CE2222D5F6D10002A6DB2;
+			productRefGroup = 467CE22C2D5F6D10002A6DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467CE22A2D5F6D10002A6DB2 /* harrypotter */,
+				467CE23A2D5F6D11002A6DB2 /* harrypotterTests */,
+				467CE2442D5F6D11002A6DB2 /* harrypotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467CE2292D5F6D10002A6DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461EF4A42D64B90D00220296 /* Hufflepuff.jpg in Resources */,
+				467CE2632D5F7F6D002A6DB2 /* logo.png in Resources */,
+				467CE2612D5F7F5E002A6DB2 /* biblioteca.jpg in Resources */,
+				461EF4A82D64B91A00220296 /* Slytherin.jpg in Resources */,
+				461EF4AC2D64C33400220296 /* placeholder.png in Resources */,
+				467CE2362D5F6D11002A6DB2 /* Preview Assets.xcassets in Resources */,
+				467CE2332D5F6D11002A6DB2 /* Assets.xcassets in Resources */,
+				461EF4A62D64B91300220296 /* Ravenclaw.jpg in Resources */,
+				461EF4AA2D64B92300220296 /* Gryffindor.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CE2392D5F6D11002A6DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CE2432D5F6D11002A6DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467CE2272D5F6D10002A6DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467CE2592D5F6E23002A6DB2 /* harryPotterApi.swift in Sources */,
+				467CE2312D5F6D10002A6DB2 /* ContentView.swift in Sources */,
+				467CE22F2D5F6D10002A6DB2 /* harrypotterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CE2372D5F6D11002A6DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467CE2402D5F6D11002A6DB2 /* harrypotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CE2412D5F6D11002A6DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467CE24A2D5F6D11002A6DB2 /* harrypotterUITests.swift in Sources */,
+				467CE24C2D5F6D11002A6DB2 /* harrypotterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		467CE23D2D5F6D11002A6DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467CE22A2D5F6D10002A6DB2 /* harrypotter */;
+			targetProxy = 467CE23C2D5F6D11002A6DB2 /* PBXContainerItemProxy */;
+		};
+		467CE2472D5F6D11002A6DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467CE22A2D5F6D10002A6DB2 /* harrypotter */;
+			targetProxy = 467CE2462D5F6D11002A6DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		467CE24D2D5F6D11002A6DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		467CE24E2D5F6D11002A6DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467CE2502D5F6D11002A6DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"harrypotter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victorgabrielbarbosa.harrypotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		467CE2512D5F6D11002A6DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"harrypotter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victorgabrielbarbosa.harrypotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		467CE2532D5F6D11002A6DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victorgabrielbarbosa.harrypotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harrypotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/harrypotter";
+			};
+			name = Debug;
+		};
+		467CE2542D5F6D11002A6DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victorgabrielbarbosa.harrypotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harrypotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/harrypotter";
+			};
+			name = Release;
+		};
+		467CE2562D5F6D11002A6DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victorgabrielbarbosa.harrypotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = harrypotter;
+			};
+			name = Debug;
+		};
+		467CE2572D5F6D11002A6DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victorgabrielbarbosa.harrypotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = harrypotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467CE2262D5F6D10002A6DB2 /* Build configuration list for PBXProject "harrypotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467CE24D2D5F6D11002A6DB2 /* Debug */,
+				467CE24E2D5F6D11002A6DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467CE24F2D5F6D11002A6DB2 /* Build configuration list for PBXNativeTarget "harrypotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467CE2502D5F6D11002A6DB2 /* Debug */,
+				467CE2512D5F6D11002A6DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467CE2522D5F6D11002A6DB2 /* Build configuration list for PBXNativeTarget "harrypotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467CE2532D5F6D11002A6DB2 /* Debug */,
+				467CE2542D5F6D11002A6DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467CE2552D5F6D11002A6DB2 /* Build configuration list for PBXNativeTarget "harrypotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467CE2562D5F6D11002A6DB2 /* Debug */,
+				467CE2572D5F6D11002A6DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467CE2232D5F6D10002A6DB2 /* Project object */;
+}
