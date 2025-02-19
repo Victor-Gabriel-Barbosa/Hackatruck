@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a1b6c493046fa222",
+        "type": "cloudantplus out",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "cloudant": "2d160216b1cc4970",
+        "database": "victor123",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 440,
+        "y": 500,
+        "wires": [
+            [
+                "bf0a507d39763179"
+            ]
+        ]
+    },
+    {
+        "id": "2d160216b1cc4970",
+        "type": "cloudantplus",
+        "host": "https://f1c0dcf9-5075-4061-a1f8-2f4ca596058a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "Victor",
+        "useapikey": true
+    }
+]
