@@ -1,0 +1,121 @@
+[
+    {
+        "id": "583a54bc15f0f539",
+        "type": "http in",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "url": "/postSensorVictor",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "357f7da4549f9da7"
+            ]
+        ]
+    },
+    {
+        "id": "3f3a6c36e7763c4f",
+        "type": "cloudantplus out",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "cloudant": "2d160216b1cc4970",
+        "database": "sensorvictor",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [
+                "13ed86d269f2deeb"
+            ]
+        ]
+    },
+    {
+        "id": "13ed86d269f2deeb",
+        "type": "http response",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 770,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "357f7da4549f9da7",
+        "type": "function",
+        "z": "b3a0437decee1c6c",
+        "name": "function 1",
+        "func": "const agora = new Date();\nconst dataFormatada = agora.toLocaleDateString('pt-BR') + ' ' + agora.toLocaleTimeString('pt-BR');\n\nmsg.payload = {\n    \"umidade\" : msg.payload.umidade,\n    \"data\" : Date.now(),\n    \"id\": Date.now()\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 120,
+        "wires": [
+            [
+                "3f3a6c36e7763c4f"
+            ]
+        ]
+    },
+    {
+        "id": "fb8c4c125c0f4798",
+        "type": "http in",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "url": "/getSensorVictor",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "f1c9efc5ea3b8ad8"
+            ]
+        ]
+    },
+    {
+        "id": "f1c9efc5ea3b8ad8",
+        "type": "cloudantplus in",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "cloudant": "2d160216b1cc4970",
+        "database": "sensorvictor",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "107322324a96f617"
+            ]
+        ]
+    },
+    {
+        "id": "107322324a96f617",
+        "type": "http response",
+        "z": "b3a0437decee1c6c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2d160216b1cc4970",
+        "type": "cloudantplus",
+        "host": "https://f1c0dcf9-5075-4061-a1f8-2f4ca596058a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "Victor",
+        "useapikey": true
+    }
+]
